@@ -222,66 +222,18 @@ The distribution of the target variable was revisited to confirm the extent of c
 ### Summary of Key Findings
 Key insights from the visual analysis were summarized to guide feature selection, modeling decisions, and interpretation of results.
 
-
-1. Bar Charts: Readmission rate by categorical variables
-
+Heatmap: Readmission Rate by Diagnosis Groups
 
 
-    
-![png](output_62_1.png)
-    
-2. Distributions of Numerical Variables by Readmission Status
-
-
+<img width="929" height="712" alt="output_65_1" src="https://github.com/user-attachments/assets/27bbfda3-d4c4-4854-98e4-2543b9930415" />
 
     
-![png](output_63_1.png)
-    
+Readmission Rate by Time in Hospital
 
 
+<img width="712" height="424" alt="output_66_1" src="https://github.com/user-attachments/assets/96534855-1304-42d8-afe9-ba79c4a4d16e" />
 
-
-3. Correlation Matrix of Numerical Features
-
-
-
-    
-![png](output_64_1.png)
-    
-
-
-    
-Top features correlated with readmission within 30 days:
-
-
-
-
-    
-![png](output_64_3.png)
-    
-
-
-4. Heatmap: Readmission Rate by Diagnosis Groups
-
-
-
-    
-![png](output_65_1.png)
-    
-
-
-    
-5. Readmission Rate by Time in Hospital
-
-
-
-    
-![png](output_66_1.png)
-    
-
-
-    
-    ======================================================================
+     ======================================================================
     KEY INSIGHTS SUMMARY
     ======================================================================
     
@@ -440,39 +392,16 @@ To better understand the performance and practical implications of the improved 
 - Demonstrates the **practical implications** of the model in the healthcare context.
 - Illustrates potential improvements in patient outcomes and resource allocation when high-risk patients are accurately identified.
 
-
-
-    
 Creating comprehensive visualizations for the improved model...
 
 
 
-    
-![png](output_105_1.png)
-    
+<img width="1144" height="1031" alt="output_105_1" src="https://github.com/user-attachments/assets/e03958e3-e984-43ef-8c01-c05687edb3ad" />
 
-
-    
-Creating threshold analysis visualization...
-
-
-
-    
-![png](output_106_1.png)
-    
-
-
-    
 Creating final summary visualization...
 
-
-
+<img width="718" height="424" alt="output_107_1" src="https://github.com/user-attachments/assets/5df7565a-8342-4341-8372-d106397e117d" />
     
-![png](output_107_1.png)
-    
-
-
-
 ## Key Insights from Visualizations
 1. **Recall target achieved:** 65.1% *(meets Kenya healthcare requirement)*
 2. **Precision remains low:** 13.1% *(indicates many false alarms)*
@@ -608,17 +537,10 @@ To provide a comprehensive understanding of model performance and practical impl
 Creating comprehensive visualizations and analysis...
     
     1. Model Performance Comparison
-       --------------------------------------------------
 
+<img width="1288" height="884" alt="output_119_1" src="https://github.com/user-attachments/assets/239c5267-2904-4bb5-9f29-571c1731566d" />
 
-
-    
-![png](output_119_1.png)
-    
-
-
-    
-    2. Detailed Model Comparison
+     2. Detailed Model Comparison
        --------------------------------------------------
     
                    Metric Logistic Regression Random Forest    Target Improvement
@@ -653,7 +575,6 @@ Creating comprehensive visualizations and analysis...
   *(-1,236 fewer than Logistic Regression)*
 - **Resource implication:** For every 100 interventions, about **15** are for actual high-risk patients
 
----
 
 **Critical Considerations for Kenya (Limited Resources)**
 - Both models capture **sufficient high-risk patients** *(Recall > 65%)*
@@ -809,24 +730,8 @@ To further improve predictive performance, an **XGBoost model** was developed, f
 
 ## COMPREHENSIVE THREE-MODEL COMPARISON VISUALIZATION
 
-
-
-    
-    Creating comprehensive comparison of all three models...
-    
-    1. Performance Metrics Comparison
-       --------------------------------------------------
-
-
-
-    
-![png](output_133_1.png)
-    
-
-
-    
-    2. Detailed Performance Comparison Table
-       ------------------------------------------------------------
+  Detailed Performance Comparison Table
+ ------------------------------------------------------------
     
        Performance Metrics (Test Set):
        ------------------------------------------------------------------------------------------
@@ -836,15 +741,6 @@ To further improve predictive performance, an **XGBoost model** was developed, f
                  XGBoost  0.655     0.163    0.261  0.672        1,487       784        7,645      0.48
                   TARGET  0.650     0.400    0.500  0.700     Maximize  Minimize     Minimize   Optimal
     
-    3. Enhanced Model Performance Heatmap
-       --------------------------------------------------
-
-
-
-    
-![png](output_133_3.png)
-    
-
 
 ## 8. Business Impact Comparison Between The 3 Model
 
