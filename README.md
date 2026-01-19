@@ -156,11 +156,17 @@ This model best balances **patient safety**, **operational feasibility**, and **
 
 ## Authors
 FAITH KANYUKI
+
 EDINAH OGOTI
+
 CINDY AKINYI
+
 DIANA ALOO
-GEOFREY OSUNDWA
+
+GODFREY OSUNDWA
+
 ELSIE WAIRIMU
+
 MITCHEL MKAN
 **Group Project – Moringa School**  
  Data Science  
