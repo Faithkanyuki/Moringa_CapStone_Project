@@ -167,8 +167,10 @@ GODFREY OSUNDWA
 
 ELSIE WAIRIMU
 
-MITCHEL MKAN
+MITCHELLE MKAN
+
 **Group Project – Moringa School**  
+
  Data Science  
 
 
