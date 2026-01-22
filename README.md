@@ -110,6 +110,9 @@ This heatmap highlights diagnosis categories associated with higher readmission 
 
 ---
 
+Readmission rates vary across diagnosis categories and diagnosis positions. Higher rates are observed in neoplasms, supplementary, 
+and unknown diagnoses, particularly when appearing as primary diagnoses. This suggests that underlying disease complexity influences readmission risk and should be incorporated into predictive modeling.
+
 ### Readmission Rate by Time in Hospital
 Longer hospital stays were associated with increased likelihood of readmission.
 
