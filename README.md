@@ -82,6 +82,11 @@ Key findings showed higher readmission rates among patients with:
 ### Readmission rate by categorical variables
 <img width="1139" height="1325" alt="image" src="https://github.com/user-attachments/assets/e6a2906f-df85-4f3a-8069-ebc4b279ef14" />
 
+Readmission rates vary significantly across patient demographics, admission characteristics, discharge disposition, and diabetes severity.
+Higher readmission risk is observed among older patients, emergency and urgent admissions, and patients discharged to post-acute care facilities.
+Gender shows minimal influence, while clinical severity and missing diabetes tests are associated with increased readmissions. 
+These patterns highlight the importance of using data-driven models to identify high-risk patients and support targeted interventions before discharge.
+
 ### Distributions of Numerical Variables by Readmission Status
 
 <img width="1288" height="884" alt="image" src="https://github.com/user-attachments/assets/c2fee6bf-5fbb-4807-be77-8cd0fa18fa1c" />
