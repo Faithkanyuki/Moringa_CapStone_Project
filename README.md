@@ -94,6 +94,10 @@ These patterns highlight the importance of using data-driven models to identify 
 ### Correlation Matrix of Numerical Features
 <img width="1044" height="856" alt="image" src="https://github.com/user-attachments/assets/8ea20969-0f73-4d3d-93fe-6af3ac14be83" />
 
+Patients who were readmitted generally show longer hospital stays, higher numbers of lab procedures, and more medications prescribed compared to those not readmitted. 
+Readmitted patients also tend to have more previous hospital visits, indicating higher overall care complexity. 
+Changes in medications are slightly more frequent among readmitted patients, while emergency visit counts show minimal variation. 
+Overall, higher clinical intensity and prior utilization are associated with increased readmission risk.
 
 ### Readmission Rate by Diagnosis Groups
 This heatmap highlights diagnosis categories associated with higher readmission risk.
