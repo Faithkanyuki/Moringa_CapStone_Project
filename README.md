@@ -70,6 +70,17 @@ Key findings showed higher readmission rates among patients with:
 - Certain diagnosis groupings
 - Complex discharge dispositions
 
+### Readmission rate by categorical variables
+<img width="1139" height="1325" alt="image" src="https://github.com/user-attachments/assets/e6a2906f-df85-4f3a-8069-ebc4b279ef14" />
+
+### Distributions of Numerical Variables by Readmission Status
+
+<img width="1288" height="884" alt="image" src="https://github.com/user-attachments/assets/c2fee6bf-5fbb-4807-be77-8cd0fa18fa1c" />
+
+### Correlation Matrix of Numerical Features
+<img width="1044" height="856" alt="image" src="https://github.com/user-attachments/assets/8ea20969-0f73-4d3d-93fe-6af3ac14be83" />
+
+
 ### Readmission Rate by Diagnosis Groups
 This heatmap highlights diagnosis categories associated with higher readmission risk.
 
@@ -85,15 +96,55 @@ Longer hospital stays were associated with increased likelihood of readmission.
 ---
 
 ## Phase 5: Modeling
-Three machine learning models were trained and evaluated:
+Three machine learning models were trained and evaluated to predict 30-day hospital readmission among diabetic patients.
+
+Models used:
 1. **Logistic Regression** (baseline and SMOTE-enhanced)
 2. **Random Forest**
 3. **XGBoost**
 
 Key modeling considerations included:
-- Addressing class imbalance
-- Hyperparameter tuning
-- Threshold optimization to maximize Recall
+- Addressing class imbalance  
+- Hyperparameter tuning  
+- Threshold optimization to maximize Recall  
+
+---
+
+### 1️⃣ Logistic Regression
+
+Logistic Regression was used as the baseline model to establish initial performance and provide interpretability.  
+A SMOTE-enhanced version was also trained to address class imbalance and improve recall for readmitted patients.
+
+
+<img width="1072" height="884" alt="image" src="https://github.com/user-attachments/assets/96f61431-d66c-427b-8052-1218532dd9ce" />
+
+### Comprehensive visualizations for the improved model
+<img width="1144" height="1031" alt="image" src="https://github.com/user-attachments/assets/f61e4a0a-581b-43fa-8302-f5d80a685f4f" />
+### Threshold analysis visualization
+<img width="1006" height="144" alt="image" src="https://github.com/user-attachments/assets/ee668683-7700-4a6e-809f-d669903d745f" />
+### Final summary visualization
+<img width="718" height="424" alt="image" src="https://github.com/user-attachments/assets/07571754-4be2-40c8-aa05-f9a00a54a4a7" />
+
+
+---
+
+### 2️⃣ Random Forest
+
+Random Forest was implemented to capture non-linear relationships and interactions between patient features.  
+Its ensemble structure improves robustness and reduces overfitting compared to linear models.
+
+### Comparison with logistic 
+<img width="1288" height="884" alt="image" src="https://github.com/user-attachments/assets/e0445427-8822-4dbf-8801-b88649448586" />
+
+
+---
+
+### 3️⃣ XGBoost
+
+XGBoost was used as the final model due to its ability to iteratively correct prediction errors and optimize performance.  
+It achieved the strongest overall results and was selected as the best-performing model.
+
+<img width="1287" height="884" alt="image" src="https://github.com/user-attachments/assets/2f798b49-0961-481d-96f2-f6f49a99b147" />
 
 ---
 
