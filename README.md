@@ -144,6 +144,9 @@ A SMOTE-enhanced version was also trained to address class imbalance and improve
 
 <img width="1072" height="884" alt="image" src="https://github.com/user-attachments/assets/96f61431-d66c-427b-8052-1218532dd9ce" />
 
+The confusion matrix shows that the model successfully identifies a significant proportion of high-risk patients, prioritizing recall over precision. 
+The ROC curve indicates moderate discriminative ability above random classification. Feature importance highlights prior hospital utilization and medication changes as the strongest predictors of readmission.
+Overall performance approaches target goals, supporting the model’s use for early risk identification rather than exact prediction.
 ### Comprehensive visualizations for the improved model
 <img width="1144" height="1031" alt="image" src="https://github.com/user-attachments/assets/f61e4a0a-581b-43fa-8302-f5d80a685f4f" />
 ### Threshold analysis visualization
