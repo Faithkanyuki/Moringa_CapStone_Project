@@ -154,9 +154,6 @@ A SMOTE-enhanced version was also trained to address class imbalance and improve
 
 ---
 
-The confusion matrix shows that the model successfully identifies a significant proportion of high-risk patients, prioritizing recall over precision. 
-The ROC curve indicates moderate discriminative ability above random classification. Feature importance highlights prior hospital utilization and medication changes as the strongest predictors of readmission.
-Overall performance approaches target goals, supporting the model’s use for early risk identification rather than exact prediction.
 
 ### 2️⃣ Random Forest
 
