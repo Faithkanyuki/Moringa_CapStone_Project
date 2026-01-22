@@ -149,6 +149,11 @@ The ROC curve indicates moderate discriminative ability above random classificat
 Overall performance approaches target goals, supporting the model’s use for early risk identification rather than exact prediction.
 ### Comprehensive visualizations for the improved model
 <img width="1144" height="1031" alt="image" src="https://github.com/user-attachments/assets/f61e4a0a-581b-43fa-8302-f5d80a685f4f" />
+
+After threshold optimization, the model achieves high recall (65.1%), meeting the target of identifying most high-risk patients before discharge. 
+The ROC curve shows improved discrimination over random classification, while feature importance confirms that emergency visits, medication changes, 
+and prior hospital utilization are the strongest predictors. Overall, the model prioritizes early risk detection over precision, aligning with Kenya’s resource-constrained healthcare context.
+
 ### Threshold analysis visualization
 <img width="1006" height="144" alt="image" src="https://github.com/user-attachments/assets/ee668683-7700-4a6e-809f-d669903d745f" />
 ### Final summary visualization
