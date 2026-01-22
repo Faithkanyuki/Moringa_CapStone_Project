@@ -3,6 +3,14 @@
 ![Project Banner](https://github.com/Faithkanyuki/Moringa_CapStone_Project/blob/main/diabetes.png)
 
 ---
+#Introduction
+Diabetes poses a growing burden on Kenya’s healthcare system, where limited resources must serve an increasing number of patients. 
+Inefficient allocation of healthcare resources often leads to preventable complications, hospital readmissions, and increased costs. 
+This project explores the use of machine learning techniques to analyze patient data and predict healthcare needs, enabling data-driven decision-making. 
+By identifying high-risk diabetic patients early, the study aims to support targeted interventions, optimize resource utilization, and improve patient outcomes within Kenya’s constrained healthcare environment.
+
+
+
 
 ## Project Overview
 Diabetes-related hospital readmissions place significant strain on Kenya’s healthcare system by increasing costs, overcrowding hospitals, and stretching already limited healthcare resources.
