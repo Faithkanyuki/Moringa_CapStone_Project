@@ -110,6 +110,7 @@ This heatmap highlights diagnosis categories associated with higher readmission 
 
 ---
 
+Readmission rates increase with longer hospital stays, peaking for patients hospitalized 8–10 days, indicating higher clinical complexity and greater post-discharge risk
 Readmission rates vary across diagnosis categories and diagnosis positions. Higher rates are observed in neoplasms, supplementary, 
 and unknown diagnoses, particularly when appearing as primary diagnoses. This suggests that underlying disease complexity influences readmission risk and should be incorporated into predictive modeling.
 
