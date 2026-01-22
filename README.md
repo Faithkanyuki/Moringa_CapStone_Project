@@ -99,7 +99,9 @@ Overall, higher clinical intensity and prior utilization are associated with inc
 ### Correlation Matrix of Numerical Features
 <img width="1044" height="856" alt="image" src="https://github.com/user-attachments/assets/8ea20969-0f73-4d3d-93fe-6af3ac14be83" />
 
-
+Most clinical variables show weak to moderate correlations, indicating low multicollinearity. 
+Readmission within 30 days has no strong linear correlation with any single variable, confirming that readmission risk is influenced by a combination of factors. 
+Strong correlations appear among utilization features (hospital visits, emergency and inpatient counts), supporting the need for a machine-learning approach rather than rule-based thresholds.
 
 ### Readmission Rate by Diagnosis Groups
 This heatmap highlights diagnosis categories associated with higher readmission risk.
