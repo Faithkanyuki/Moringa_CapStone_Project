@@ -1,4 +1,4 @@
-# Optimizing Healthcare Resource Allocation for Diabetic Patients in Kenya Using Machine Learning
+<img width="1767" height="281" alt="image" src="https://github.com/user-attachments/assets/674e6b73-539f-499b-a106-49930b0c29ca" /># Optimizing Healthcare Resource Allocation for Diabetic Patients in Kenya Using Machine Learning
 
 
 
@@ -336,11 +336,23 @@ This model best balances **patient safety**, **operational feasibility**, and **
 * More efficient use of healthcare resources
 * Data-driven support for healthcare decision-making
 
+# Conclusion
+* Successfully developed a machine learning model to predict 30-day readmission among diabetic patients
+* Identified key clinical and utilization factors influencing readmission risk
+* Random Forest achieved the highest recall, meeting project objectives
+* Demonstrated that data-driven risk stratification can improve resource allocation in Kenya’s healthcare system
+# Recommendation 
+
+* Deploy the Random Forest model as a decision-support tool at discharge
+* Use predictions to prioritize high-risk patients for targeted interventions
+* Integrate the model with hospital information systems for routine use
+* Monitor model performance and retrain periodically with local data
+* Extend the approach to other chronic diseases
 
 
 
 ## Authors
-FAITH KANYUKI
+**FAITH KANYUKI
 
 EDINAH OGOTI
 
