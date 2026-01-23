@@ -38,6 +38,8 @@
 </details>
 
 ---
+### Diabetes Readmission Risk Prediction for Kenya's Healthcare System
+ _Knowing early. Acting wisely. Live longer_
 https://kenya-hospital-streamlit.onrender.com/
 # Introduction
 
