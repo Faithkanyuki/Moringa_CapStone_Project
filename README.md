@@ -272,6 +272,16 @@ This model best balances **patient safety**, **operational feasibility**, and **
 - Jupyter Notebook
 
 ---
+## Deployment
+# Objectives
+To operationalize the trained Random Forest model as a decision-support tool that identifies diabetic patients at high risk of 30-day readmission before hospital discharge.
+Deployment Platform
+Web-based application built using Streamlit
+Accessible via browser:https://kenya-hospital-streamlit.onrender.com/
+Designed for use by healthcare workers in real-time clinical settings
+
+<img width="2771" height="392" alt="image" src="https://github.com/user-attachments/assets/35047302-60fd-4755-9c26-625348a98d56" />
+
 
 ## Authors
 FAITH KANYUKI
