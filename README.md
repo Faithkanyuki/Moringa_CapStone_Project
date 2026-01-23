@@ -38,6 +38,7 @@
 ### Diabetes Readmission Risk Prediction for Kenya's Healthcare System
  _Knowing early. Acting wisely. Live longer_
 https://kenya-hospital-streamlit.onrender.com/
+
 # Introduction
 
 Diabetes poses a growing burden on Kenya’s healthcare system, where limited resources must serve an increasing number of patients. 
@@ -47,6 +48,7 @@ By identifying high-risk diabetic patients early, the study aims to support targ
 
 
 ## Project Overview
+
 Diabetes-related hospital readmissions place significant strain on Kenya’s healthcare system by increasing costs, overcrowding hospitals, and stretching already limited healthcare resources.
 
 This project applies **machine learning techniques** to predict **30-day hospital readmission risk** among diabetic patients. The goal is to enable **early identification of high-risk patients**, support **targeted interventions**, and improve **healthcare resource allocation**.
