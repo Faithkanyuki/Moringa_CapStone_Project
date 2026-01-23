@@ -204,13 +204,12 @@ Its ensemble structure improves robustness and reduces overfitting compared to l
 
 ### Comparison with logistic 
 <img width="1288" height="884" alt="image" src="https://github.com/user-attachments/assets/e0445427-8822-4dbf-8801-b88649448586" />
-
+---
 Random Forest consistently outperforms Logistic Regression across key evaluation metrics.
 It achieves higher recall, identifying more high-risk patients, while also improving precision, F1-score, and AUC,
 indicating better overall discrimination. From a business perspective, Random Forest correctly identifies more high-risk 
 patients and misses fewer critical cases, making it more effective for early intervention. Feature importance analysis
 shows that both models rely heavily on prior healthcare utilization and medication-related variables, reinforcing their clinical relevance.
----
 
 ### 3️⃣ XGBoost
 
