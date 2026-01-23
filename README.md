@@ -361,22 +361,22 @@ deployment
 
 
 ## Authors
-**FAITH KANYUKI
+**FAITH KANYUKI**
 
-EDINAH OGOTI
+**EDINAH OGOTI**
 
-CINDY AKINYI
+**CINDY AKINYI**
 
-DIANA ALOO
+**DIANA ALOO**
 
-GODFREY OSUNDWA
+**GODFREY OSUNDWA**
 
-ELSIE WAIRIMU
+**ELSIE WAIRIMU**
 
-MITCHELLE MKAN
+**MITCHELLE MKAN**
 
 **Group Project – Moringa School**  
 
- Data Science  
+**Data Science**
 
 
