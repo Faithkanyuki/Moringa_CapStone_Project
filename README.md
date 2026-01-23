@@ -1,7 +1,5 @@
 ![Project Banner](https://github.com/Faithkanyuki/Moringa_CapStone_Project/blob/main/diabetes.png)
 
----
-
 <details>
   <summary><strong>📑 Table of Contents</strong></summary>
 
@@ -37,7 +35,6 @@
 
 </details>
 
----
 ### Diabetes Readmission Risk Prediction for Kenya's Healthcare System
  _Knowing early. Acting wisely. Live longer_
 https://kenya-hospital-streamlit.onrender.com/
@@ -47,8 +44,6 @@ Diabetes poses a growing burden on Kenya’s healthcare system, where limited re
 Inefficient allocation of healthcare resources often leads to preventable complications, hospital readmissions, and increased costs. 
 This project explores the use of machine learning techniques to analyze patient data and predict healthcare needs, enabling data-driven decision-making. 
 By identifying high-risk diabetic patients early, the study aims to support targeted interventions, optimize resource utilization, and improve patient outcomes within Kenya’s constrained healthcare environment.
-
-
 
 
 ## Project Overview
@@ -197,8 +192,6 @@ and prior hospital utilization are the strongest predictors. Overall, the model 
 
 ### Final summary visualization
 <img width="718" height="424" alt="image" src="https://github.com/user-attachments/assets/07571754-4be2-40c8-aa05-f9a00a54a4a7" />
-
-
 
 
 ### 2 Random Forest
