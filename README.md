@@ -53,8 +53,6 @@ This project applies **machine learning techniques** to predict **30-day hospita
 
 The project follows the **CRISP-DM framework**, ensuring a structured, industry-aligned data science process while contextualizing insights for the Kenyan healthcare environment.
 
-
-
 ## Phase 1: Business Understanding
 Unplanned readmissions are costly and often preventable. In Kenya’s resource-constrained healthcare system, missing a high-risk patient has greater consequences than flagging a low-risk one.
 
@@ -69,8 +67,6 @@ Develop a predictive model that identifies **diabetic patients at high risk of r
 - **Secondary:** Precision ≥ 40%, AUC ≥ 0.70  
 
 Recall is prioritized to minimize missed high-risk patients.
-
-
 
 ## Phase 2: Data Understanding
 - **Dataset Size:** 101,766 hospital encounters  
@@ -88,8 +84,6 @@ Recall is prioritized to minimize missed high-risk patients.
 - Missing values in clinical variables
 - High-cardinality categorical features
 
-
-
 ## Phase 3: Data Preparation & Feature Engineering
 This phase transformed raw healthcare data into a model-ready dataset:
 - Binary target creation for 30-day readmission
@@ -100,8 +94,6 @@ This phase transformed raw healthcare data into a model-ready dataset:
   - Diagnosis groupings
   - Medication change flags
 - Stratified train-test split to preserve class distribution
-
-
 
 ## Phase 4: Exploratory Data Analysis (EDA)
 EDA was conducted to identify patterns and drivers of readmission risk.
@@ -140,7 +132,6 @@ Strong correlations appear among utilization features (hospital visits, emergenc
 This heatmap highlights diagnosis categories associated with higher readmission risk.
 
 ![Readmission Rate by Diagnosis Groups](https://github.com/user-attachments/assets/27bbfda3-d4c4-4854-98e4-2543b9930415)
-
 
 
 Readmission rates increase with longer hospital stays, peaking for patients hospitalized 8–10 days, indicating higher clinical complexity and greater post-discharge risk
