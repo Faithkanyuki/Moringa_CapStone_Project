@@ -156,6 +156,7 @@ and prior hospital utilization are the strongest predictors. Overall, the model 
 
 ### Threshold analysis visualization
 <img width="1006" height="144" alt="image" src="https://github.com/user-attachments/assets/ee668683-7700-4a6e-809f-d669903d745f" />
+
 ### Final summary visualization
 <img width="718" height="424" alt="image" src="https://github.com/user-attachments/assets/07571754-4be2-40c8-aa05-f9a00a54a4a7" />
 
@@ -202,12 +203,6 @@ This visualization compares performance across all models under Kenya’s health
 
 ---
 
-### Improved Logistic Regression – Business Impact
-This visualization highlights the trade-off between Recall and false positives.
-
-![Logistic Regression Business Impact](https://github.com/user-attachments/assets/5df7565a-8342-4341-8372-d106397e117d)
-
----
 
 ## Phase 7: Final Model Selection
 
