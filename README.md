@@ -1,7 +1,9 @@
 ![Project Banner](https://github.com/Faithkanyuki/Moringa_CapStone_Project/blob/main/diabetes.png)
 
+
 <details>
   <summary><strong>📑 Table of Contents</strong></summary>
+
 
   <ul>
     <li><a href="#introduction">Introduction</a></li>
@@ -33,11 +35,14 @@
     <li><a href="#authors">Authors</a></li>
   </ul>
 
+
 </details>
+
 
 ### Diabetes Readmission Risk Prediction for Kenya's Healthcare System
  _Knowing early. Acting wisely. Live longer_
 https://kenya-hospital-streamlit.onrender.com/
+
 
 # Introduction
 
@@ -228,7 +233,7 @@ This visualization compares performance across all models under Kenya’s health
 
 ![Model Performance Comparison](https://github.com/user-attachments/assets/239c5267-2904-4bb5-9f29-571c1731566d)
 
----
+
 * Logistic Regression: Baseline model with acceptable recall but low precision and overall accuracy; useful for interpretability.
 
 * Random Forest: Best overall performer with the highest recall, identifying the most high-risk patients and minimizing missed cases.
