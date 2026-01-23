@@ -58,7 +58,7 @@ This project applies **machine learning techniques** to predict **30-day hospita
 
 The project follows the **CRISP-DM framework**, ensuring a structured, industry-aligned data science process while contextualizing insights for the Kenyan healthcare environment.
 
----
+
 
 ## Phase 1: Business Understanding
 Unplanned readmissions are costly and often preventable. In Kenya’s resource-constrained healthcare system, missing a high-risk patient has greater consequences than flagging a low-risk one.
@@ -75,7 +75,7 @@ Develop a predictive model that identifies **diabetic patients at high risk of r
 
 Recall is prioritized to minimize missed high-risk patients.
 
----
+
 
 ## Phase 2: Data Understanding
 - **Dataset Size:** 101,766 hospital encounters  
@@ -93,7 +93,7 @@ Recall is prioritized to minimize missed high-risk patients.
 - Missing values in clinical variables
 - High-cardinality categorical features
 
----
+
 
 ## Phase 3: Data Preparation & Feature Engineering
 This phase transformed raw healthcare data into a model-ready dataset:
@@ -106,7 +106,7 @@ This phase transformed raw healthcare data into a model-ready dataset:
   - Medication change flags
 - Stratified train-test split to preserve class distribution
 
----
+
 
 ## Phase 4: Exploratory Data Analysis (EDA)
 EDA was conducted to identify patterns and drivers of readmission risk.
@@ -146,7 +146,7 @@ This heatmap highlights diagnosis categories associated with higher readmission 
 
 ![Readmission Rate by Diagnosis Groups](https://github.com/user-attachments/assets/27bbfda3-d4c4-4854-98e4-2543b9930415)
 
----
+
 
 Readmission rates increase with longer hospital stays, peaking for patients hospitalized 8–10 days, indicating higher clinical complexity and greater post-discharge risk
 Readmission rates vary across diagnosis categories and diagnosis positions. Higher rates are observed in neoplasms, supplementary, 
@@ -157,7 +157,7 @@ Longer hospital stays were associated with increased likelihood of readmission.
 
 ![Readmission Rate by Time in Hospital](https://github.com/user-attachments/assets/96534855-1304-42d8-afe9-ba79c4a4d16e)
 
----
+
 
 ## Phase 5: Modeling
 Three machine learning models were trained and evaluated to predict 30-day hospital readmission among diabetic patients.
@@ -172,9 +172,9 @@ Key modeling considerations included:
 - Hyperparameter tuning  
 - Threshold optimization to maximize Recall  
 
----
+-
 
-### 1️⃣ Logistic Regression
+### 1️ Logistic Regression
 
 Logistic Regression was used as the baseline model to establish initial performance and provide interpretability.  
 A SMOTE-enhanced version was also trained to address class imbalance and improve recall for readmitted patients.
@@ -199,10 +199,9 @@ and prior hospital utilization are the strongest predictors. Overall, the model 
 <img width="718" height="424" alt="image" src="https://github.com/user-attachments/assets/07571754-4be2-40c8-aa05-f9a00a54a4a7" />
 
 
----
 
 
-### 2️⃣ Random Forest
+### 2 Random Forest
 
 Random Forest was implemented to capture non-linear relationships and interactions between patient features.  
 Its ensemble structure improves robustness and reduces overfitting compared to linear models.
@@ -217,14 +216,14 @@ indicating better overall discrimination. From a business perspective, Random Fo
 patients and misses fewer critical cases, making it more effective for early intervention. Feature importance analysis
 shows that both models rely heavily on prior healthcare utilization and medication-related variables, reinforcing their clinical relevance.
 
-### 3️⃣ XGBoost
+### 2 XGBoost
 
 XGBoost was used as the final model due to its ability to iteratively correct prediction errors and optimize performance.  
 It achieved the strongest overall results and was selected as the best-performing model.
 
 <img width="1287" height="884" alt="image" src="https://github.com/user-attachments/assets/2f798b49-0961-481d-96f2-f6f49a99b147" />
 
----
+
 
 ## Phase 6: Model Evaluation & Comparison
 
@@ -236,7 +235,7 @@ It achieved the strongest overall results and was selected as the best-performin
 | Random Forest | **0.690** | 0.154 | 0.660 |
 | XGBoost | 0.655 | **0.163** | **0.672** |
 
----
+
 
 ### Model Performance Comparison
 This visualization compares performance across all models under Kenya’s healthcare priorities.
@@ -252,7 +251,7 @@ This visualization compares performance across all models under Kenya’s health
 
 ## Phase 7: Final Model Selection
 
-### ✅ Recommended Model: **Random Forest**
+###  Recommended Model: **Random Forest**
 
 **Rationale:**
 - Achieved the **highest Recall (69%)**
@@ -262,7 +261,7 @@ This visualization compares performance across all models under Kenya’s health
 
 This model best balances **patient safety**, **operational feasibility**, and **policy relevance**.
 
----
+
 
 ## Phase 8: Business Impact & Recommendations
 - Enables early identification of high-risk diabetic patients
@@ -270,7 +269,7 @@ This model best balances **patient safety**, **operational feasibility**, and **
 - Improves hospital bed, staffing, and resource allocation
 - Provides evidence-based insights for healthcare policy and planning
 
----
+
 
 ## Tools & Technologies
 - Python
@@ -279,7 +278,7 @@ This model best balances **patient safety**, **operational feasibility**, and **
 - Matplotlib, Seaborn
 - Jupyter Notebook
 
----
+
 # Deployment
 ## Objectives
 
