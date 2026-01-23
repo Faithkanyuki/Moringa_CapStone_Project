@@ -297,12 +297,12 @@ https://kenya-hospital-streamlit.onrender.com/
 
 
 **Key Predictors of Readmission Risk**
-* 1.**Prior Hospital Visits (48% influence)**
-   Higher utilization strongly increases readmission risk
-* 2. **Discharge Destination (14–15% influence)**
-   Post-discharge care setting significantly affects outcomes
-* 3. **Emergency Department Visits (3.5% influence)**
-   Recent ER visits indicate clinical instability
+* **Prior Hospital Visits (48% influence)**
+Higher utilization strongly increases readmission risk
+* **Discharge Destination (14–15% influence)**
+Post-discharge care setting significantly affects outcomes
+*  **Emergency Department Visits (3.5% influence)**
+Recent ER visits indicate clinical instability
 
 **Model Output & Decision Logic**
 * **Risk Score**: Generates a **0–100% probability** of 30-day readmission
@@ -328,12 +328,12 @@ https://kenya-hospital-streamlit.onrender.com/
 * Polypharmacy and complex discharge needs
 * **Predicted Risk: 78%**
 * **Action**: Intensive post-discharge intervention
-**Patient B**
+* **Patient B**
 * First hospital admission
 * Short length of stay
 * Discharged home
 * **Predicted Risk: 25%**
-* **Action**: Standard discharge and followup care
+* **Action**: Standard discharge and follow-up care
 
 **Model Performance & Relevance**
 * **69% recall**, successfully identifying most high-risk patients
