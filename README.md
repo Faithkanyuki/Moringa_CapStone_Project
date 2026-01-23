@@ -205,6 +205,7 @@ Its ensemble structure improves robustness and reduces overfitting compared to l
 ### Comparison with logistic 
 <img width="1288" height="884" alt="image" src="https://github.com/user-attachments/assets/e0445427-8822-4dbf-8801-b88649448586" />
 ---
+
 Random Forest consistently outperforms Logistic Regression across key evaluation metrics.
 It achieves higher recall, identifying more high-risk patients, while also improving precision, F1-score, and AUC,
 indicating better overall discrimination. From a business perspective, Random Forest correctly identifies more high-risk 
@@ -238,11 +239,11 @@ This visualization compares performance across all models under Kenya’s health
 ![Model Performance Comparison](https://github.com/user-attachments/assets/239c5267-2904-4bb5-9f29-571c1731566d)
 
 ---
-Logistic Regression: Baseline model with acceptable recall but low precision and overall accuracy; useful for interpretability.
+* Logistic Regression: Baseline model with acceptable recall but low precision and overall accuracy; useful for interpretability.
 
-Random Forest: Best overall performer with the highest recall, identifying the most high-risk patients and minimizing missed cases.
+* Random Forest: Best overall performer with the highest recall, identifying the most high-risk patients and minimizing missed cases.
 
-XGBoost: Most balanced model with the highest precision, F1-score, and AUC, reducing unnecessary interventions.
+* XGBoost: Most balanced model with the highest precision, F1-score, and AUC, reducing unnecessary interventions.
 
 ## Phase 7: Final Model Selection
 
