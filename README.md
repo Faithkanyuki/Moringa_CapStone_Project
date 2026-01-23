@@ -28,6 +28,9 @@
     <li><a href="#phase-6-model-evaluation--comparison">Phase 6: Model Evaluation & Comparison</a></li>
     <li><a href="#phase-7-final-model-selection">Phase 7: Final Model Selection</a></li>
     <li><a href="#phase-8-business-impact--recommendations">Phase 8: Business Impact & Recommendations</a></li>
+    <li><a href="#deployment">Deployment</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#recommendations">Recommendations</a></li>
     <li><a href="#tools--technologies">Tools & Technologies</a></li>
     <li><a href="#authors">Authors</a></li>
   </ul>
