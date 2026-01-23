@@ -275,11 +275,27 @@ This model best balances **patient safety**, **operational feasibility**, and **
 ## Deployment
 # Objectives
 
-To operationalize the trained Random Forest model as a decision-support tool that identifies diabetic patients at high risk of 30-day readmission before hospital discharge.
-Deployment Platform
-Web-based application built using Streamlit
-Accessible via browser:https://kenya-hospital-streamlit.onrender.com/
-Designed for use by healthcare workers in real-time clinical settings
+* To operationalize the trained Random Forest model as a decision-support tool that identifies diabetic patients at high risk of 30-day readmission before hospital discharge.
+  
+* Deployment Platform
+
+* Web-based application built using Streamlit
+  
+* Accessible via browser:https://kenya-hospital-streamlit.onrender.com/
+
+* Designed for use by healthcare workers in real-time clinical settings
+  
+# How the Deployment Works
+* Healthcare worker enters key patient information at discharge
+* Inputs include demographic, clinical, and utilization features
+* The deployed Random Forest model processes the inputs
+* The system outputs:
+* Readmission risk prediction
+* Risk category (High / Low risk)
+# Model Role
+* Provides decision support, not clinical replacement
+* Flags patients who may need additional follow-up or intervention
+
 
 ## Authors
 FAITH KANYUKI
