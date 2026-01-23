@@ -278,69 +278,85 @@ This model best balances **patient safety**, **operational feasibility**, and **
 - Jupyter Notebook
 
 ---
-## Deployment
-# Objectives
+# Deployment
+## Objectives
 
-* To operationalize the trained Random Forest model as a decision-support tool that identifies diabetic patients at high risk of 30-day readmission before hospital discharge.
-  
-* Deployment Platform
-
-* Web-based application built using Streamlit
-  
-* Accessible via browser:https://kenya-hospital-streamlit.onrender.com/
-
+* To operationalize the trained **Random Forest model** as a **decision-support tool** that identifies diabetic patients at high risk of 30-day readmission before hospital discharge.
+* **Deployment Platform**
+* Web-based application built using **Streamlit**
+* Accessible via browser:
+https://kenya-hospital-streamlit.onrender.com/
 * Designed for use by healthcare workers in real-time clinical settings
   
-# How the Deployment Works
-* Healthcare worker enters key patient information at discharge
-* Inputs include demographic, clinical, and utilization features
-* The deployed Random Forest model processes the inputs
-* The system outputs:
-* Readmission risk prediction
-* Risk category (High / Low risk)
-# Model Role
-* Provides decision support, not clinical replacement
-* Flags patients who may need additional follow-up or intervention
+## How the Deployment Works
+**Learning Framework**
+* Trained on **81,412 patient cases**
+* Identifies patterns associated with 30-day readmission risk
+* Applies **weighted analysis**,recognizing that some factors have greater influence than others
+* Continuously improves as new patient data becomes available
 
-# Clinical & Operational Use 
-# Clinical Application
 
-* Supports early identification of high-risk diabetic patients
-* Enables targeted interventions such as:
-* Enhanced discharge planning
-* Medication review
-* Follow-up scheduling
-* Referral to post-discharge care services
-# Operational Benefits
-* Prioritizes limited healthcare resources
-* Reduces preventable readmissions
-* Improves continuity of care after discharge
+**Key Predictors of Readmission Risk**
+* 1.**Prior Hospital Visits (48% influence)**
+   Higher utilization strongly increases readmission risk
+* 2. **Discharge Destination (14–15% influence)**
+   Post-discharge care setting significantly affects outcomes
+* 3. **Emergency Department Visits (3.5% influence)**
+   Recent ER visits indicate clinical instability
 
-# Deployment Readiness & Impact 
-#  Deployment Strengths
+**Model Output & Decision Logic**
+* **Risk Score**: Generates a **0–100% probability** of 30-day readmission
+* **Decision Threshold: 48%**,optimized for Kenya’s healthcare context
+* **Final Output**: Classifies patients as **High-Risk** or **Low Risk** to guide intervention planning
 
-* Simple, user-friendly interface
-* Minimal technical infrastructure required
-* Interpretable model outputs
-* Scalable across county and national hospitals
-# Expected Impact
-* Improved patient outcomes
-* Reduced hospital congestion
-* More efficient use of healthcare resources
-* Data-driven support for healthcare decision-making
-  
-# Deployment Readiness & Impact<img width
-# Deployment Strengths
+## Clinical & Operational Use
 
-* Simple, user-friendly interface
-* Minimal technical infrastructure required
-* Interpretable model outputs
-* Scalable across county and national hospitals
-# Expected Impact
-* Improved patient outcomes
-* Reduced hospital congestion
-* More efficient use of healthcare resources
-* Data-driven support for healthcare decision-making
+**Decision Support System**
+**Risk-Based Care Pathways**
+  **High-Risk Patients (Risk > 48%)**
+* Priority follow-up within **7 days**
+* Coordinated multidisciplinary care
+* Home-based care services arranged where appropriate
+  **Low-Risk Patients (Risk ≤ 48%)**
+* Standard **30-day** follow-up
+* Routine discharge planning
+* Patient education and self management guidance
+
+**Illustrative Patient Scenarios**
+* **Patient A**
+* Multiple hospital visits in the past year
+* Polypharmacy and complex discharge needs
+* **Predicted Risk: 78%**
+* **Action**: Intensive post-discharge intervention
+**Patient B**
+* First hospital admission
+* Short length of stay
+* Discharged home
+* **Predicted Risk: 25%**
+* **Action**: Standard discharge and followup care
+
+**Model Performance & Relevance**
+* **69% recall**, successfully identifying most high-risk patients
+* Designed to **prioritize sensitivity**, minimizing missed critical cases
+* **Optimized for Kenya’s healthcare context**, ensuring practical and policy-relevant
+deployment
+
+## Operational Benefits
+### Implementation Impact
+**Resource Optimization**
+* Efficient targeting of limited clinical staff time
+* Reduction of unnecessary follow-ups
+* Focus on patients with the highest care needs
+
+**Quality Improvement**
+* Standardized, data-driven risk assessment
+* Reduction in preventable readmissions
+* More consistent clinical decision-making
+
+**Patient Outcomes**
+* Earlier intervention for high risk patients
+* Improved continuity of postdischarge care
+* Better overall health outcomes
 
 # Conclusion
 * Successfully developed a machine learning model to predict 30-day readmission among diabetic patients
