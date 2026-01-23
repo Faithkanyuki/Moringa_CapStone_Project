@@ -306,9 +306,9 @@ This model best balances **patient safety**, **operational feasibility**, and **
 * Follow-up scheduling
 * Referral to post-discharge care services
 # Operational Benefits
-Prioritizes limited healthcare resources
-Reduces preventable readmissions
-Improves continuity of care after discharge
+* Prioritizes limited healthcare resources
+* Reduces preventable readmissions
+* Improves continuity of care after discharge
 
 # Deployment Readiness & Impact 
 #  Deployment Strengths
@@ -317,12 +317,24 @@ Improves continuity of care after discharge
 * Minimal technical infrastructure required
 * Interpretable model outputs
 * Scalable across county and national hospitals
-* Expected Impact
+# Expected Impact
 * Improved patient outcomes
 * Reduced hospital congestion
 * More efficient use of healthcare resources
 * Data-driven support for healthcare decision-making
+  
+# Deployment Readiness & Impact<img width
+# Deployment Strengths
 
+* Simple, user-friendly interface
+* Minimal technical infrastructure required
+* Interpretable model outputs
+* Scalable across county and national hospitals
+# Expected Impact
+* Improved patient outcomes
+* Reduced hospital congestion
+* More efficient use of healthcare resources
+* Data-driven support for healthcare decision-making
 
 
 
