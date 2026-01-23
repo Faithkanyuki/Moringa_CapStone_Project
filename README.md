@@ -1,8 +1,46 @@
 # Optimizing Healthcare Resource Allocation for Diabetic Patients in Kenya Using Machine Learning
 
+
+
+
 ![Project Banner](https://github.com/Faithkanyuki/Moringa_CapStone_Project/blob/main/diabetes.png)
 
 ---
+
+<details>
+  <summary><strong>📑 Table of Contents</strong></summary>
+
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#phase-1-business-understanding">Phase 1: Business Understanding</a></li>
+    <li><a href="#phase-2-data-understanding">Phase 2: Data Understanding</a></li>
+    <li><a href="#phase-3-data-preparation--feature-engineering">Phase 3: Data Preparation & Feature Engineering</a></li>
+    <li><a href="#phase-4-exploratory-data-analysis-eda">Phase 4: Exploratory Data Analysis (EDA)</a></li>
+    <ul>
+      <li><a href="#readmission-rate-by-categorical-variables">Readmission Rate by Categorical Variables</a></li>
+      <li><a href="#distributions-of-numerical-variables-by-readmission-status">Distributions of Numerical Variables by Readmission Status</a></li>
+      <li><a href="#correlation-matrix-of-numerical-features">Correlation Matrix of Numerical Features</a></li>
+      <li><a href="#readmission-rate-by-diagnosis-groups">Readmission Rate by Diagnosis Groups</a></li>
+      <li><a href="#readmission-rate-by-time-in-hospital">Readmission Rate by Time in Hospital</a></li>
+    </ul>
+    <li><a href="#phase-5-modeling">Phase 5: Modeling</a></li>
+    <ul>
+      <li><a href="#1️⃣-logistic-regression">Logistic Regression</a></li>
+      <li><a href="#2️⃣-random-forest">Random Forest</a></li>
+      <li><a href="#3️⃣-xgboost">XGBoost</a></li>
+    </ul>
+    <li><a href="#phase-6-model-evaluation--comparison">Phase 6: Model Evaluation & Comparison</a></li>
+    <li><a href="#phase-7-final-model-selection">Phase 7: Final Model Selection</a></li>
+    <li><a href="#phase-8-business-impact--recommendations">Phase 8: Business Impact & Recommendations</a></li>
+    <li><a href="#tools--technologies">Tools & Technologies</a></li>
+    <li><a href="#authors">Authors</a></li>
+  </ul>
+
+</details>
+
+---
+
 # Introduction
 
 Diabetes poses a growing burden on Kenya’s healthcare system, where limited resources must serve an increasing number of patients. 
