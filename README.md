@@ -1,8 +1,3 @@
-<img width="1767" height="281" alt="image" src="https://github.com/user-attachments/assets/674e6b73-539f-499b-a106-49930b0c29ca" /># Optimizing Healthcare Resource Allocation for Diabetic Patients in Kenya Using Machine Learning
-
-
-
-
 ![Project Banner](https://github.com/Faithkanyuki/Moringa_CapStone_Project/blob/main/diabetes.png)
 
 ---
